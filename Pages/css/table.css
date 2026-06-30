@@ -1,0 +1,61 @@
+.table-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  background: white;
+  color: black;
+}
+
+.table-content {
+  padding: 24px;
+  background: whitesmoke;
+}
+
+.table-card {
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 2px 8px silver;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.table-header h1 {
+  margin-bottom: 6px;
+}
+
+.table-header p {
+  color: dimgray;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid lightgray;
+  padding: 10px;
+  text-align: left;
+  color: black;
+}
+
+.student-table th {
+  background: whitesmoke;
+}
+
+.student-table tr:nth-child(even) {
+  background: white;
+}
